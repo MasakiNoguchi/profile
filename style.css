@@ -1,0 +1,137 @@
+/*Body
+Pick a nice background-color, font-family, color,
+font-size and line-height for the <body>.
+*Setting these font rules at the body-level will apply
+them on all basic text tags * (<p>, <li>, etc.).
+
+Headers
+Choose a nice color and font-family for headers
+(<h1>, <h2>, <h3>)
+
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant.
+If you check out any website (Medium, Airbnb, etc.),
+you'll see that the font-size of their headers is quite small.
+Links
+
+Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover.*/
+
+body {
+  color: #606470;
+  background-color: #EFF0F4;
+  font-family:'Nunito', sans-serif;
+}
+
+
+/* --------- NAVIGATION BAR --------- */
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #606470;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-family:'Nunito', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #EFF0F4;
+  color: black;
+}
+
+/*---------- JUMBOTRON BAR ------------*/
+.jumbotron {
+  text-align: center;
+  background-image: url("images/adventure.jpg");
+  font-family:'Nunito', sans-serif;
+}
+
+.jumbotron img {
+  border-radius: 50%;
+  border: 3px;
+  border-color: white;
+}
+
+/*------------ CARDS ----------------*/
+.col-sm-4 {
+  text-align: center;
+  font-family:'Nunito', sans-serif;
+}
+
+.container img {
+  padding: 16px;
+}
+
+/*-------------- Services -----------------*/
+
+.services {
+  color: white;
+  background-color: #606470;
+  font-family:'Nunito', sans-serif;
+  padding: 20px;
+}
+
+.recent {
+  display: flex;
+  align-items: center;
+  font-family:'Nunito', sans-serif;
+  margin: auto;
+  padding: 60 px;
+  text-align: center;
+
+}
+
+.box {
+  border: 1px;
+  margin: auto;
+  padding: 45px;
+  color: black;
+  width: 300px;
+  background-color: #EFF0F4;
+  opacity: 90%;
+}
+
+/*------------ TEAM ------------------*/
+
+.team {
+  align-items: center;
+  text-align: center;
+  font-family:'Nunito', sans-serif;
+  width: 800px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+.left, .right {
+  width: 50%;
+}
+
+.team img {
+  width: 130px ;
+  height: 130px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+
+/*------------ Contact Me ---------------*/
+
+.contact {
+  color: white;
+  background-color: #606470;
+  font-family:'Nunito', sans-serif;
+  padding: 10px;
+  margin: 20px;
+}
